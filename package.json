@@ -1,0 +1,36 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "bootstrap": "^4.5.0",
+    "classnames": "^2.2.6",
+    "date-fns": "^2.14.0",
+    "gray-matter": "^4.0.2",
+    "next": "9.3.5",
+    "react": "16.13.1",
+    "react-auto-toc": "^1.2.7",
+    "react-burger-menu": "^2.6.17",
+    "react-dom": "16.13.1",
+    "reactstrap": "^8.4.1",
+    "remark": "^12.0.0",
+    "remark-highlight.js": "^6.0.0",
+    "remark-html": "^11.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0"
+  }
+}
